@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const app = express();
 
-app.listen(process.env.port);
+app.listen(process.env.PORT);
 
 let courses = [{
     id: 1,
